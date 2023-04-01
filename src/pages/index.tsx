@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import React from 'react'
 import { Inter } from 'next/font/google'
-
+import { NextPage } from 'next'
 
 const inter = Inter({ subsets: ['latin'] })
 
-const Home: React.FC = () => {
+const Home: NextPage = () => {
   return (
     <div>
       <Head>
@@ -13,7 +13,7 @@ const Home: React.FC = () => {
        </Head>
 
       <main >
-        <h1>Leibarg tattoo</h1>
+
       </main>
     </div>
   )
